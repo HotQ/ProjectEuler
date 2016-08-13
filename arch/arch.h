@@ -1,7 +1,7 @@
-#ifndef H_INCLUDED
-#define H_INCLUDED
+#ifndef ARCH_H_INCLUDED
+#define ARCH_H_INCLUDED
 
 
 int ID001();
 
-#endif // LINKEDLIST_H_INCLUDED
+#endif // ARCH_H_INCLUDED

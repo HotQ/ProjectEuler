@@ -22,9 +22,9 @@ int ListLength(List L){
 
 void ListPushBack(List L,void *e){
 
-    List headNode=L,
-               oldTail=L->prior,
-               newTail;
+    List headNode = L,
+                    oldTail=L->prior,
+                    newTail;
     newTail=(List)malloc(sizeof(Node));
     newTail->data=e;
 
