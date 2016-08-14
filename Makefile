@@ -1,6 +1,6 @@
 CC = gcc
 target = ProjectEuler
-object = main.o math/linkedList.o arch/001.o desc/desc.o
+object = main.o math/linkedList.o arch/001.o desc/desc.o arch/arch.o
 
 $(target):$(object)
 	$(CC) $(object) -o $(target)
@@ -13,6 +13,9 @@ linkedList.o:math/linkedList.c math/linkedList.h
 
 desc.o:desc/desc.c
 	$(CC) -c desc/desc.c -o desc/desc.o
+
+arch.o:arch/arch.c
+	$(CC) -c arch/arch.c -o arch/arch.o
 
 001.o:arch/001.c
 	$(CC) -c arch/001.c -o arch/001.o

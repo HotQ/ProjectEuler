@@ -5,7 +5,6 @@
 #include "desc/desc.h"
 
 int main(){
-	PrintDescription(1);	
+	IDxxx(1);
 	return 0;
 }
-
