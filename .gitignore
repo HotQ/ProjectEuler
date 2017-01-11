@@ -31,3 +31,6 @@
 # Debug files
 *.dSYM/
 *.su
+/.vs
+/.vs
+/.vs/ProjectEuler/v15/.suo
