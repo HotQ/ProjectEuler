@@ -34,3 +34,6 @@
 /.vs
 /.vs
 /.vs/ProjectEuler/v15/.suo
+/Debug
+
+ProjectEuler.*
